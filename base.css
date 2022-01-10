@@ -9,7 +9,7 @@
 }
 body{
     font-size: 100%;
-    background: linear-gradient( 135deg, #46c5c7 10%, #130CB7 100%);;
+    background: linear-gradient( 135deg, #000000 0%, #979292 100%);;
 }
 .cabecalho{
     display: flex;
@@ -19,7 +19,7 @@ body{
     padding: 24px;
 }
 .cabecalho-imagem{
-    height: 72px;
+    height: 80px;
 }
 .cabecalho-menu{
     display: flex;
@@ -56,6 +56,7 @@ body{
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
+    
 
 }
 .conteudo-principal-escrito-subtitulo{
@@ -68,7 +69,7 @@ body{
 .conteudo-principal-escrito-botao{
     background-color: #ECD6C4;
     width: 180px;
-    height: 60px;
+    height: 80px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); 
     border-radius: 20px;
@@ -84,7 +85,7 @@ body{
     height: 430px;
 
 }
-.conteu-secundario{
+.conteudo-secundario{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,14 +101,17 @@ body{
     font-size: 24px;
     color: #FFF2E7;
     margin-bottom: 16px;
-
+    
+    
 }
 .conteudo-secundario-paragrafo{
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: center;
     color: #ECD6C4;
     padding-bottom: 15px;
+    align-content: center;
 
 }
 .rodape{
@@ -116,7 +120,7 @@ body{
 
 }
 .rodape-imagem{
-    height: 48px;
+    height: 60px;
     display: block;
     margin: 0 auto;
 
